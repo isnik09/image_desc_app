@@ -63,7 +63,6 @@ class ItemList extends StatelessWidget {
                 });
           }
 
-          //Show loader
           return Center(child: CircularProgressIndicator());
         },
       ), //Display a list // Add a FutureBuilder
